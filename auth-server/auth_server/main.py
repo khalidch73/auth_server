@@ -50,7 +50,7 @@ def get_session():
 # 01 Define the route to read route
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello World": "This is docker container development"}
 
 # Define a route for user sign-up
 @app.post("/signup")
