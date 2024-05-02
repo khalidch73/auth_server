@@ -1,3 +1,4 @@
+### Start poetry project 
 Note: We can use it as a template also
 
 Create Project:
@@ -159,4 +160,16 @@ restart container
       
 Test the Container
     docker run -it --rm dev-auth:v.0.1 /bin/bash -c "poetry run pytest"
+
+### let start dev container 
+
+install "dev containers" extension
+
+start your docker engin by docker desktop app
+
+click on remote explorer 
+
+
+
+
 

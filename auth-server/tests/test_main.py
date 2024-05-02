@@ -1,6 +1,6 @@
-import pytest
+import pytest1
 from fastapi.testclient import TestClient
-from auth_server.main import app
+from app.main import app
 
 client = TestClient(app)
 

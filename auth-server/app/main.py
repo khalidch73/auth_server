@@ -1,9 +1,9 @@
 from contextlib import asynccontextmanager
 from typing import Annotated
-from auth_server import settings 
+from app import settings 
 from sqlmodel import Session, SQLModel, create_engine, select
 from fastapi import FastAPI, Depends, HTTPException, Path
-from auth_server.models import AuthServer, SignUpData, LoginData
+from app.models import AuthServer, SignUpData, LoginData
 
 
 # only needed for psycopg 3 - replace postgresql
