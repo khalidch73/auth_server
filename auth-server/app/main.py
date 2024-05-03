@@ -1,5 +1,4 @@
 from contextlib import asynccontextmanager
-from typing import Annotated
 from app import settings 
 from sqlmodel import Session, SQLModel, create_engine, select
 from fastapi import FastAPI, Depends, HTTPException, Path
