@@ -229,6 +229,3 @@ pgAdmin is the most popular and feature-rich Open Source administration and deve
 - Username: ziakhan
 - Password: my_password
 
-## Assignment
-
-Create a separate database container for testing in the compose file. You don't need to use a volume for the test database since we don't care to persist test data between runs. Once you have created the test database and updated the .env file, run the tests.
