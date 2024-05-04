@@ -1,3 +1,42 @@
+# Cloud Native Development with Docker Compose and Visual Studio Code
+
+## Introduction:
+
+Welcome to the world of cloud-native development! This README.md provides guidance on setting up a local development environment using Docker Compose and Visual Studio Code's dev container feature for real-time development.
+
+### What is Cloud Native Development?
+
+Cloud-native development refers to building and deploying applications that leverage cloud computing principles and technologies, such as microservices architecture, containers, and orchestration platforms like Kubernetes. This approach enables developers to create scalable, resilient, and agile applications that can easily adapt to dynamic cloud environments.
+
+### Why Use Docker Compose and Visual Studio Code?
+
+- **Docker Compose**: Docker Compose simplifies the management of multi-container applications by allowing developers to define and run complex environments with a single configuration file. It streamlines the setup of development, testing, and production environments, ensuring consistency across different stages of the development lifecycle.
+
+- **Visual Studio Code Dev Containers**: Visual Studio Code's dev container feature provides an isolated and reproducible development environment within a container. It allows developers to work with tools, libraries, and dependencies specific to their project without worrying about conflicts or compatibility issues. Dev containers ensure consistency across development environments and facilitate collaboration among team members.
+
+### Project Overview:
+
+This project is a sample authentication server implemented using Python and FastAPI. It serves as a demonstration of cloud-native development practices, including containerization, local development environment setup, and real-time development using Visual Studio Code dev containers.
+
+### Getting Started:
+
+To get started with local development, follow these steps:
+
+1. Clone the project repository.
+2. Ensure Docker Engine is installed and running on your local machine.
+3. Open a terminal and navigate to the project directory.
+4. Run the following command to start the project using Docker Compose:
+
+```bash
+docker compose up
+```
+
+5. Once the project is running, open Visual Studio Code.
+6. Navigate to the project directory and open it in a new window.
+7. Visual Studio Code will detect the dev container configuration and automatically set up the development environment within the container.
+8. You're now ready to start coding! Enjoy real-time development with Docker Compose and Visual Studio Code.
+
+
 # Start poetry project
 
 ## Create Project:
@@ -229,6 +268,3 @@ pgAdmin is the most popular and feature-rich Open Source administration and deve
 - Username: ziakhan
 - Password: my_password
 
-## Assignment
-
-Create a separate database container for testing in the compose file. You don't need to use a volume for the test database since we don't care to persist test data between runs. Once you have created the test database and updated the .env file, run the tests.
