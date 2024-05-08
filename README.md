@@ -262,7 +262,8 @@ pgAdmin is the most popular and feature-rich Open Source administration and deve
 
 ### Connect to our PostgreSQL Container:
 
-- Host name/address: localhost
+- server name : auth-server
+- Host name/address: 127.0.0.1
 - Post: 5433 (note it is not the default 5432)
 - Maintenance database: mydatabase
 - Username: ziakhan
